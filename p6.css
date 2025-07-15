@@ -1,0 +1,453 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    background: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ 
+}
+.ul1{
+    display: flex;
+gap: 25px;
+}
+.grf{
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+.fa-house{
+    color: orange;
+}
+.shop{
+    background: orange;
+    padding: 6px 10px;
+    border-radius: 20px;
+    display: flex;
+    gap: 15px;
+     box-shadow: 0 0 10px 6px rgba(255, 166, 0, 0.856);
+    
+}
+.shop:hover{
+    background: rgba(255, 166, 0, 0);
+    padding: 6px 10px;
+    border-radius: 20px;
+    display: flex;
+    gap: 15px;
+       transition: 0.5s;
+
+     box-shadow: 0 0 10px 6px rgba(167, 167, 167, 0.856);
+    
+}
+.shop:hover .facx{
+  
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    transition: 0.5s;
+}
+
+.fa-magnifying-glass ,.fa-cart-shopping{
+    color: black;
+    font-size: 13px;
+}
+
+.SUIT{
+    font-size: 14px;
+    transition: 0.5s;
+
+}
+.XC{
+    color: orange;
+}
+.SUIT:hover ,.XVDDCC{
+color: orange;
+transition: 0.5s;
+}
+.conainer{
+    width: 100%;
+    height: 483vh;
+    background: black;
+}
+.on{
+    width: 80%;
+    height: 483vh;
+    margin: auto;
+}
+.asal1{
+    width: 500px;
+    height: 500px;
+}
+.page1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.meet{
+    font-size: 55px;
+}
+.meett{
+    font-size: 45px;
+}
+.orange{
+    color: orange;
+}
+.btns{
+}
+.BTN1{
+    margin-right: 15px;
+   width: fit-content;
+ padding: 8px 30px ;
+ background: rgba(122, 122, 122, 0.315);
+ border-radius: 15px;
+ color: orange;
+ font-size: 12px;
+ transition: 0.3s;
+}
+.BTN1:hover{
+
+    transition: 0.3s;
+ background: rgba(122, 122, 122, 0);
+ border-radius: 15px;
+ color: rgb(255, 255, 255);
+ border: solid 1px white;
+
+}
+.BTN1:hover .fa-play{
+
+ 
+    transition: 0.3s;
+ 
+ color: white;
+ 
+}
+.BTN2{
+    
+    font-size: 12px;
+   
+    padding: 0px;
+    transition: 0.3s;
+    color: orange;
+    border-bottom: 2px solid orange;
+
+}
+.BTN2:hover{
+    
+  
+transition: 0.3s;
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.page2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+.pf{
+    width: 320px;
+    height: 160px;
+    background: rgba(87, 87, 87, 0.281);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:    15px;
+    border-radius: 30px;
+}
+.mong{
+    width: 30px;
+    height: 30px;
+}
+.am{
+    font-size: 15px;
+    font-weight: bold;
+}
+.amm{
+    font-size: 12px;
+color: rgb(160, 160, 160);
+}
+.page3{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+.wqdc{
+    font-size: 12px;
+    width: 500px;
+    line-height: 20px;
+    color: rgb(114, 114, 114);
+}
+.pff{
+    width: 240px;
+    height: 340px;
+    background: rgba(87, 87, 87, 0.281);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:    15px;
+    border-radius: 30px;
+}
+.mongg{
+    width: 160px;
+    height: 170px;
+}
+.ammm{
+    width: 200px;
+    font-size: 12px;
+color: rgb(160, 160, 160);
+}
+.doun{
+    width: 220px;
+    height: 330px;
+    background: rgba(119, 119, 119, 0.26);
+    border-radius: 30px;
+}
+.fa-heart{
+    position: relative;
+    top: 25px;
+    left: 25px;
+    font-size: 16px;
+    color: orange;
+}
+.dv{
+    width: 160px;
+    height: 170px;
+   position: relative;
+   left:32px;
+    
+    
+}
+.blue{
+  font-size: 13px;
+  padding: 0  20px;
+  line-height: 20px;
+
+}
+.ffvx{
+    font-size: 12px;
+    padding: 0  20px;
+    word-wrap: break-word;
+    line-height: 20px;
+    color: gray;
+}
+.MM{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    position: relative;
+    top:  7px;
+    right:6px ;
+
+}
+.PRIC{
+    font-size: 11PX;
+    padding: 7px  20px;
+    color: orange;
+    
+    font-weight: bold;
+}
+.XC{
+    font-size: 11PX;
+    padding: 7px  20px;
+    color: orange;
+    background:  rgba(0, 0, 0, 0.678);
+    border-radius: 15px;
+    transition: 0.3s;
+
+}
+.XC:hover{
+    
+  
+    color: rgb(255, 255, 255);
+    background:  rgba(0, 0, 0, 0);
+   box-shadow: 0 0 5px 2px rgba(255, 255, 255, 0.705);
+   transition: 0.3s;
+
+}
+.page5{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.page4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14PX;
+    margin-top: 50px;
+
+}
+.BV{
+    font-size: 35px;
+    font-weight: bolder;
+}
+.page7{
+    display: flex;
+
+    justify-content: center;
+
+margin-top:60px ;
+
+}
+.FVCD{
+    font-size: 12px;
+    color: gray;
+    padding: 0 10px;
+    line-height: 20px;
+}
+.pfy{
+    width: 270px;
+    height: 200px;
+    background: rgba(87, 87, 87, 0.281);
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    gap:    15px;
+    border-radius: 30px;
+    padding: 16px;
+    transition: 0.5s;
+
+}
+.pfy:hover{
+   
+    background: rgba(151, 151, 151, 0.26);
+   transition: 0.5s;
+}
+.dcsxw{
+    border-radius: 50%;
+
+}
+.FDCS2{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 15px;
+    
+
+}
+.bokri{
+font-size: 12px;
+font-weight:bold;
+}
+.dfdfood{
+    font-size: 12px;
+    color: grey;
+}
+
+.fa-star{
+font-size: 12px;
+color: orange;
+margin-right: 5px;
+}
+.ysdxc{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.ysfd1{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 150px;
+}
+.FFD{
+width: 110px;
+height: 40px;
+}
+.ysfd2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.fin{
+display: flex;
+flex-direction: column;
+gap: 35px;
+}
+
+.FIN2{
+font-size: 12px;
+color: grey;
+width: 600px;
+line-height: 20px;
+margin-top: 20px;
+}
+.ysfd3{
+  
+text-align: center;
+display: flex;
+justify-content: center;
+gap: 30px;
+}
+.ysfd4{
+    
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  }
+  
+  .madina{
+    font-size: 14px;
+  }
+  .BBV{
+    color: rgb(255, 255, 255);
+    transition: 0.5s;
+  }
+  .BBV:hover{
+    color: orange;
+    transition: 0.5s;
+    transform: translateY(-5px);
+  }
+
+
+
+
+
+
+  ::-webkit-scrollbar{
+    width: 10px;
+
+    
+}
+::-webkit-scrollbar-track{
+    background: rgb(0, 0, 0);
+}
+::-webkit-scrollbar-thumb{
+    background-image: linear-gradient(rgb(255, 153, 0),rgb(255, 193, 58));
+    
+     
+}
