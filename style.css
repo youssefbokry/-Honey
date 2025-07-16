@@ -108,8 +108,7 @@ transition: 0.5s;
 .orange{
     color: orange;
 }
-.btns{
-}
+
 .BTN1{
     margin-right: 15px;
    width: fit-content;
@@ -450,4 +449,7 @@ gap: 30px;
     background-image: linear-gradient(rgb(255, 153, 0),rgb(255, 193, 58));
     
      
+}
+.orange{
+    color: red;
 }
